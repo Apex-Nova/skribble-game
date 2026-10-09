@@ -1,0 +1,31 @@
+# ==================================================================
+#  .gitignore
+#  OWNER: Person 6 — Lobby UI & infrastructure
+# ==================================================================
+#
+#  WHAT THIS FILE IS
+#  -----------------
+#  A list of files/folders Git should NEVER track or upload.
+#  One pattern per line. Lines starting with # are comments.
+#  A pattern ending in / means "this folder, wherever it appears".
+#
+#  ⚠ DO THIS ON DAY 1, BEFORE THE FIRST `git add .`
+#  If node_modules gets committed, the repo becomes huge and every PR
+#  shows thousands of changed files.
+#
+#  PATTERNS TO ADD
+#  ---------------
+#  1. node_modules folder        — installed packages, rebuilt by npm install
+#  2. build and dist folders     — the frontend's production output
+#  3. .env and .env.* files      — secrets/config (never upload secrets)
+#  4. npm debug log files        — e.g. npm-debug.log*
+#  5. .DS_Store                  — macOS junk files
+#  6. editor folders             — e.g. .vscode/ (optional, team choice)
+#  7. Personal notes             — anything like MY_NOTES.md you don't
+#                                  want the team to see
+#
+#  DO NOT ignore package-lock.json — CI needs it.
+#
+#  HOW TO CHECK IT WORKS
+#  ---------------------
+#  Run `git status` after `npm install`: node_modules must NOT appear.

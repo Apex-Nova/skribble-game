@@ -1,0 +1,52 @@
+/*
+ * ==================================================================
+ *  frontend/src/styles/main.css
+ *  OWNER: Person 6 — Lobby UI & infrastructure
+ *  (Others may ADD rules for their own component — see rule 3.)
+ * ==================================================================
+ *
+ *  WHAT THIS FILE IS
+ *  -----------------
+ *  One shared stylesheet so the whole app looks consistent.
+ *  Imported once in App.js.
+ *
+ *  1. VARIABLES FIRST (top of file)
+ *     Define colors, spacing and font once as CSS custom properties on
+ *     :root (e.g. a primary color, background, text color, border
+ *     radius). Everyone uses the variables, never raw hex codes —
+ *     change one line and the whole app updates.
+ *     Look up: MDN "Using CSS custom properties".
+ *
+ *  2. BASE STYLES
+ *     - box-sizing: border-box on everything (makes sizes predictable).
+ *     - body: font family, background, remove default margin.
+ *     - buttons and inputs: same padding, radius, font everywhere.
+ *
+ *  3. ONE SECTION PER COMPONENT — prevents merge conflicts & clashes
+ *     Prefix every class with its component name:
+ *       .lobby-...        (Person 6)
+ *       .game-layout ...  (Person 6)
+ *       .canvas-...       (Person 3)
+ *       .toolbar-...      (Person 3)
+ *       .chat-...         (Person 4)
+ *       .leaderboard-...  (Person 6)
+ *     Each person only edits their own section, with a comment header
+ *     like this one above it. Two people editing the SAME lines = Git
+ *     conflict.
+ *
+ *  4. GAME SCREEN LAYOUT
+ *     Three columns: leaderboard | canvas | chat. Use CSS Grid
+ *     (grid-template-columns) — easiest way to do this.
+ *     A top bar above it for room code, timer, word/hint.
+ *     Look up: CSS-Tricks "A Complete Guide to CSS Grid".
+ *
+ *  5. SMALL SCREENS (optional)
+ *     A media query that stacks the columns on narrow screens.
+ *
+ *  6. NOTE: React uses `className`, not `class`, in JSX.
+ *
+ *  DONE WHEN
+ *  [ ] Lobby is centered and readable
+ *  [ ] Game screen shows 3 columns without scrolling on a laptop
+ *  [ ] Correct-guess messages are visibly different (e.g. green)
+ */
