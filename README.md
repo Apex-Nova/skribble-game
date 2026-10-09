@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎨 Skribbl-Style Multiplayer Drawing Game
 
 A real-time multiplayer drawing and guessing game. One player draws a secret word on a shared canvas while everyone else races to guess it in chat. Fastest correct guess earns the most points. Built by a team of 6 as a first collaborative project.
@@ -155,3 +156,7 @@ Full breakdown: [docs/TEAM_ROLES.md](docs/TEAM_ROLES.md).
 | `refactor:` | Code cleanup, no behavior change |
 | `style:` | Formatting only |
 # skribble-game
+=======
+# skribble-game
+A team project for college
+>>>>>>> 3d8e479589de38d4e47e9863e2695a469da8f484
