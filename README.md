@@ -1,11 +1,11 @@
-<<<<<<< HEAD
-# 🎨 Skribbl-Style Multiplayer Drawing Game
+HEAD
+# Skribbl-Style Multiplayer Drawing Game
 
 A real-time multiplayer drawing and guessing game. One player draws a secret word on a shared canvas while everyone else races to guess it in chat. Fastest correct guess earns the most points. Built by a team of 6 as a first collaborative project.
 
 ---
 
-## 🎮 How the Game Works
+## How the Game Works
 
 1. A player creates a room and shares the room code with friends.
 2. Everyone joins the room using that code.
@@ -17,7 +17,7 @@ A real-time multiplayer drawing and guessing game. One player draws a secret wor
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -32,7 +32,7 @@ A real-time multiplayer drawing and guessing game. One player draws a secret wor
 
 ---
 
-## 📁 Project File Tree
+## Project File Tree
 
 ```
 skribbl-game/
@@ -75,13 +75,13 @@ skribbl-game/
 
 ---
 
-## 🤝 API Contracts
+## API Contracts
 
 See [docs/API_CONTRACTS.md](docs/API_CONTRACTS.md). Agree on these **before** coding.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install the tools
 - [Node.js](https://nodejs.org) (LTS) — check with `node --version`
